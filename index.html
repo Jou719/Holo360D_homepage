@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Georgia:wght@400;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <nav class="topbar">
@@ -24,7 +24,7 @@
 
   <header class="hero">
     <video class="hero-video" autoplay muted loop playsinline>
-      <source src="assets/videos/scene_diversity_20s.mp4" type="video/mp4">
+      <source src="./assets/videos/scene_diversity_20s.mp4" type="video/mp4">
     </video>
     <div class="hero-overlay"></div>
     <div class="hero-content">
@@ -54,7 +54,7 @@
             <div class="video-label label-point">Pointcloud Depth</div>
             <div class="video-label label-mesh">Mesh Depth</div>
             <video id="demo-video" class="demo-video" autoplay muted loop playsinline controls>
-              <source src="assets/videos/cam4_rgb_mask_point_mesh_30fps_h264.mp4" type="video/mp4">
+              <source src="./assets/videos/cam4_rgb_mask_point_mesh_30fps_h264.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -76,20 +76,20 @@
     </div>
 
     <div class="thumbnail-bar">
-      <div class="thumbnail active" data-model="assets/models/1.ply?v=20260615-1" data-video="assets/videos/1.mp4" data-image="assets/images/1.jpg" title="1">
-        <img src="assets/images/1.jpg" alt="Scene 1 thumbnail">
+      <div class="thumbnail active" data-model="./assets/models/1.ply?v=20260615-1" data-video="./assets/videos/1.mp4" data-image="./assets/images/1.jpg" title="1">
+        <img src="./assets/images/1.jpg" alt="Scene 1 thumbnail">
       </div>
-      <div class="thumbnail" data-model="assets/models/2.ply?v=20260615-2" data-video="assets/videos/2.mp4" data-image="assets/images/2.jpg" title="2">
-        <img src="assets/images/2.jpg" alt="Scene 2 thumbnail">
+      <div class="thumbnail" data-model="./assets/models/2.ply?v=20260615-2" data-video="./assets/videos/2.mp4" data-image="./assets/images/2.jpg" title="2">
+        <img src="./assets/images/2.jpg" alt="Scene 2 thumbnail">
       </div>
-      <div class="thumbnail" data-model="assets/models/3.ply?v=20260615-3" data-video="assets/videos/3.mp4" data-image="assets/images/3.jpg" title="3">
-        <img src="assets/images/3.jpg" alt="Scene 3 thumbnail">
+      <div class="thumbnail" data-model="./assets/models/3.ply?v=20260615-3" data-video="./assets/videos/3.mp4" data-image="./assets/images/3.jpg" title="3">
+        <img src="./assets/images/3.jpg" alt="Scene 3 thumbnail">
       </div>
-      <div class="thumbnail" data-model="assets/models/4.ply?v=20260615-4" data-video="assets/videos/4.mp4" data-image="assets/images/4.jpg" title="4">
-        <img src="assets/images/4.jpg" alt="Scene 4 thumbnail">
+      <div class="thumbnail" data-model="./assets/models/4.ply?v=20260615-4" data-video="./assets/videos/4.mp4" data-image="./assets/images/4.jpg" title="4">
+        <img src="./assets/images/4.jpg" alt="Scene 4 thumbnail">
       </div>
-      <div class="thumbnail" data-model="assets/models/5.ply?v=20260615-5" data-video="assets/videos/5.mp4" data-image="assets/images/5.jpg" title="5">
-        <img src="assets/images/5.jpg" alt="Scene 5 thumbnail">
+      <div class="thumbnail" data-model="./assets/models/5.ply?v=20260615-5" data-video="./assets/videos/5.mp4" data-image="./assets/images/5.jpg" title="5">
+        <img src="./assets/images/5.jpg" alt="Scene 5 thumbnail">
       </div>
     </div>
   </section>
@@ -196,15 +196,15 @@
   <section class="section media-section">
     <div class="figure-grid">
       <figure class="figure-card">
-        <img src="assets/images/eccv_coverfigure.jpg" alt="Paper cover figure">
+        <img src="./assets/images/eccv_coverfigure.jpg" alt="Paper cover figure">
         <figcaption>Holo360D provides large-scale real-world panoramic captures paired with LiDAR-derived geometry, including meshes, point clouds, depth maps, and camera poses.</figcaption>
       </figure>
       <figure class="figure-card">
-        <img src="assets/images/depth-comparison.jpg" alt="Depth comparison">
+        <img src="./assets/images/depth-comparison.jpg" alt="Depth comparison">
         <figcaption>Compared with existing panoramic datasets, Holo360D offers more complete and better aligned depth maps for both indoor and outdoor scenes.</figcaption>
       </figure>
       <figure class="figure-card">
-        <img src="assets/images/algorithm_comparison.jpg" alt="Algorithm comparison">
+        <img src="./assets/images/algorithm_comparison.jpg" alt="Algorithm comparison">
         <figcaption>Fine-tuning feed-forward 3D reconstruction models on Holo360D improves panoramic reconstruction quality and provides stronger geometric supervision.</figcaption>
       </figure>
     </div>
